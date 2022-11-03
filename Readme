@@ -1,9 +1,9 @@
 Hướng dẫn: 
-- docker run -it -d --name awvs -p 3443:3443 xrsec/awvs:latest # chạy trên máy host
-- bash <(curl -skm 10 https://www.fahai.org/aDisk/Awvs/check.sh) xrsec/awvs # chạy trên máy host
-- URL: https://server_ip:3443/#/login
-  UserName: awvs@awvs.lan
-  PassWord: Awvs@awvs.lan
+- run: `docker run -it -d --name awvs -p 3443:3443 xrsec/awvs:latest` # chạy trên máy host
+- run: `bash <(curl -skm 10 https://www.fahai.org/aDisk/Awvs/check.sh) xrsec/awvs` # chạy trên máy host
+- URL: `https://server_ip:3443/#/login`
+  UserName: `awvs@awvs.lan`
+  PassWord: `Awvs@awvs.lan`
 
 Từ
 - https://mari0er.club/post/scanner.html/
